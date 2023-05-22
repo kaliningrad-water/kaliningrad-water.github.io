@@ -1,0 +1,28 @@
+body {
+  background-image: url("img/a1.jpg"); /*путь к изображению*/
+  background-size: cover; /*изображение будет масштабироваться и заполнять всю область body*/
+  background-attachment: fixed; /*фон будет зафиксирован и не будет скроллиться вместе со страницей*/
+}
+#chart {
+  position: relative;
+  width: 500px;
+  height: 300px;
+}
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /*цвет фона с прозрачностью 50%*/
+  z-index: 1; /*элемент будет находиться над остальными элементами*/
+}
+
+p {
+  color: powderblue;
+  font-size: 25px;
+}
+
+h1 {
+  color: blue;
+}

@@ -1,0 +1,19 @@
+body {
+  background-image: url("https://img2.akspic.ru/attachments/crops/5/7/7/2/0/102775/102775-reki-vodoem-ozero-priroda-zakat-1920x1080.jpg"); /*путь к изображению*/
+  background-size: cover; /*изображение будет масштабироваться и заполнять всю область body*/
+  background-attachment: fixed; /*фон будет зафиксирован и не будет скроллиться вместе со страницей*/
+}
+
+.rard {
+  background-color: white;
+}
+
+.cards {
+  height: 100vh;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.5);
+}

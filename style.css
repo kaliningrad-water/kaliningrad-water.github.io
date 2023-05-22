@@ -1,0 +1,72 @@
+nav ul li a {
+  color: black;
+}
+
+li {
+  margin-bottom: 100px;
+}
+
+.hero-section {
+  background-image: url("https://img1.akspic.ru/crops/1/7/7/2/0/102771/102771-ekosistema-voda-reki-otrazhenie-zelenyj-1920x1080.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-section a {
+  display: inline-block;
+  margin: 60px;
+  padding: 100px;
+  border: 4px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hero-section h1 {
+  margin: 0;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.hero-section p {
+  margin: 25;
+  padding: 0 0 70px;
+  color: white;
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+a.button {
+  font-size: 14px;
+  padding: 6px 12px;
+}
+
+.hero-section a {
+  margin-right: -150px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+.progress {
+  margin-bottom: 100px;
+}
+
+a {
+  transition: background-color 0.2s ease-in-out;
+}
+
+a {
+  color: black;
+  transition-duration: 0.2s;
+  transition-property: color;
+}
+
+a:hover {
+  color: red;
+}
